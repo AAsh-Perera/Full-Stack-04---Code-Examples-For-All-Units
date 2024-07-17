@@ -1,0 +1,11 @@
+
+        <%- include('partials/header') %>
+        <h1><%= title %></h1>
+        <p>By <%= author %> on <%= date %></p>
+        <p>Category: <%= category %></p>
+        <div>
+            <%= body %>
+        </div>
+        <p>Tags: <%= tags.join(', ') %></p>
+        <%- include('partials/footer') %>
+    
